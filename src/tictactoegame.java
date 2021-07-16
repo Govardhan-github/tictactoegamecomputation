@@ -10,7 +10,7 @@ public class tictactoegame {
 		char[] board = new char[10];
 		
 		//Assigning empty space for each value
-		for(int i = 0;i < board.length; i++) {
+		for(int i = 1;i < board.length; i++) {
 			board[i]= ' ';
 		}
 			return board;
